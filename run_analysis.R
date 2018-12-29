@@ -1,4 +1,9 @@
+# load dplyr package
 library(dplyr)
+
+# set working directory
+setwd('C:/Users/catherine/Downloads/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset');
+
 # read features, activity labels, test and training data
 features <- read.table("features.txt")
 activities <- read.table("activity_labels.txt")
