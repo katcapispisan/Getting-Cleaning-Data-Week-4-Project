@@ -1,4 +1,3 @@
-Getting-Cleaning-Data-Week-4-Project
 This file will describe how the run_analysis.R script will work.
 
 The code uses library(dplyr) so please ensure the dplyr package is installed and loaded.
