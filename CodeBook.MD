@@ -13,7 +13,7 @@ The run_analysis.R script performs the following steps to clean the data:
 3. Read X_test.txt, y_test.txt and subject_test.txt from the "/UCI HAR Dataset/test" folder and store them in xtest, ytest and subjectstest
 4. Concatenate xtrain to xtest to generate a data frame, xall
 5. Concatenate ytrain to ytest to generate a data frame, yall
-6. Concatenate subjectstrain to subjectstest to generate a 10299x1 data frame, subjectsall
+6. Concatenate subjectstrain to subjectstest to generate a data frame, subjectsall
 7. Name the columns of xall with the feature names in features
 8. Subset xall to columns containing "mean()" or "std()"
 9. Add columns to describe the subject and the activity, by concatenating xallsub with subjectsall and yall
